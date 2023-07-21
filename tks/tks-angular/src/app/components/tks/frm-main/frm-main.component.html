@@ -1,0 +1,11 @@
+<div *ngIf="model">
+            <wm-window [model]="model" id="frmMain" class="TKS_frmMain">
+                <ng-template let-model>
+                    <div class="frmMain">
+                        <wm-toolstrip #menuStrip1 id="menuStrip1" [model]="model.menuStrip1" class="menuStrip1" tabindex="2"></wm-toolstrip>
+                        <tks-uo-collapsable-control #uoCollapsableControl1 id="uoCollapsableControl1" [model]="model.uoCollapsableControl1" class="uoCollapsableControl1" tabindex="3">
+</tks-uo-collapsable-control>
+                    </div>
+                </ng-template>
+            </wm-window>
+        </div>

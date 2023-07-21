@@ -1,0 +1,26 @@
+<div *ngIf="model">
+            <wm-window [model]="model" id="frmCustomer" class="TKS_frmCustomer">
+                <ng-template let-model>
+                    <div class="frmCustomer">
+                        <wm-button #btnCancel id="btnCancel" [model]="model.btnCancel" class="btnCancel" tabindex="1"></wm-button>
+                        <wm-button #btnSave id="btnSave" [model]="model.btnSave" class="btnSave" tabindex="2"></wm-button>
+                        <wm-label #lblFirstName id="lblFirstName" [model]="model.lblFirstName" class="lblFirstName" tabindex="3">First Name:</wm-label>
+                        <wm-label #lblLastName id="lblLastName" [model]="model.lblLastName" class="lblLastName" tabindex="4">Last Name:</wm-label>
+                        <wm-label #lblPhone id="lblPhone" [model]="model.lblPhone" class="lblPhone" tabindex="5">Phone:</wm-label>
+                        <wm-label #lblEmail id="lblEmail" [model]="model.lblEmail" class="lblEmail" tabindex="6">Email:</wm-label>
+                        <wm-label #lblStreet id="lblStreet" [model]="model.lblStreet" class="lblStreet" tabindex="7">Street:</wm-label>
+                        <wm-label #lblCity id="lblCity" [model]="model.lblCity" class="lblCity" tabindex="8">City:</wm-label>
+                        <wm-label #lblState id="lblState" [model]="model.lblState" class="lblState" tabindex="9">State:</wm-label>
+                        <wm-label #lblZip id="lblZip" [model]="model.lblZip" class="lblZip" tabindex="10">Zip Code:</wm-label>
+                        <wm-maskedtextbox #mskPhone id="mskPhone" [model]="model.mskPhone" class="mskPhone" tabindex="11"></wm-maskedtextbox>
+                        <wm-textbox #txtFirstName id="txtFirstName" [model]="model.txtFirstName" class="txtFirstName" tabindex="12"></wm-textbox>
+                        <wm-textbox #txtLastName id="txtLastName" [model]="model.txtLastName" class="txtLastName" tabindex="13"></wm-textbox>
+                        <wm-textbox #txtEmail id="txtEmail" [model]="model.txtEmail" class="txtEmail" tabindex="14"></wm-textbox>
+                        <wm-textbox #txtStreet id="txtStreet" [model]="model.txtStreet" class="txtStreet" tabindex="15"></wm-textbox>
+                        <wm-textbox #txtCity id="txtCity" [model]="model.txtCity" class="txtCity" tabindex="16"></wm-textbox>
+                        <wm-textbox #txtZip id="txtZip" [model]="model.txtZip" class="txtZip" tabindex="18"></wm-textbox>
+                        <wm-combobox #cboState id="cboState" [model]="model.cboState" class="cboState" tabindex="19"></wm-combobox>
+                    </div>
+                </ng-template>
+            </wm-window>
+        </div>

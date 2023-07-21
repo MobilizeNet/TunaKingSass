@@ -1,0 +1,34 @@
+<div *ngIf="model">
+            <wm-window [model]="model" id="CustomersOrders" class="TKS_CustomersOrders">
+                <ng-template let-model>
+                    <div class="CustomersOrders">
+                        <wm-label #label1 id="label1" [model]="model.label1" class="label1" tabindex="4">Electronic bill</wm-label>
+                        <wm-textbox #textBox2 id="textBox2" [model]="model.textBox2" class="textBox2" tabindex="7"></wm-textbox>
+                        <wm-label #label3 id="label3" [model]="model.label3" class="label3" tabindex="8">Offices</wm-label>
+                        <wm-button #button1 id="button1" [model]="model.button1" class="button1" tabindex="10"></wm-button>
+                        <wm-combobox #comboBox1 id="comboBox1" [model]="model.comboBox1" class="comboBox1" tabindex="13"></wm-combobox>
+                        <wm-label #label4 id="label4" [model]="model.label4" class="label4" tabindex="16">Economic Activity</wm-label>
+                        <wm-textbox #textBox1 id="textBox1" [model]="model.textBox1" class="textBox1" tabindex="17"></wm-textbox>
+                        <wm-label #label5 id="label5" [model]="model.label5" class="label5" tabindex="18">SerialNumber:</wm-label>
+                        <wm-combobox #comboBox2 id="comboBox2" [model]="model.comboBox2" class="comboBox2" tabindex="19"></wm-combobox>
+                        <wm-label #label6 id="label6" [model]="model.label6" class="label6" tabindex="20">Consecutive number</wm-label>
+                        <wm-textbox #textBox4 id="textBox4" [model]="model.textBox4" class="textBox4" tabindex="21"></wm-textbox>
+                        <wm-label #label7 id="label7" [model]="model.label7" class="label7" tabindex="22">Comercial Name</wm-label>
+                        <wm-textbox #textBox5 id="textBox5" [model]="model.textBox5" class="textBox5" tabindex="23"></wm-textbox>
+                        <wm-label #label8 id="label8" [model]="model.label8" class="label8" tabindex="24">label8</wm-label>
+                        <wm-label #label9 id="label9" [model]="model.label9" class="label9" tabindex="25">Select Customer</wm-label>
+                        <wm-combobox #comboBox3 id="comboBox3" [model]="model.comboBox3" class="comboBox3" tabindex="26"></wm-combobox>
+                        <wm-button #button2 id="button2" [model]="model.button2" class="button2" tabindex="27"></wm-button>
+                        <wm-label #label2 id="label2" [model]="model.label2" class="label2" tabindex="28">ORDERS</wm-label>
+                        <wm-groupbox #groupBox1 id="groupBox1" [model]="model.groupBox1" class="groupBox1" tabindex="30">
+          <wm-radiobutton #radioButton1 id="radioButton1" [model]="model.radioButton1" class="radioButton1" tabindex="1"></wm-radiobutton>
+          <wm-radiobutton #radioButton2 id="radioButton2" [model]="model.radioButton2" class="radioButton2" tabindex="2"></wm-radiobutton>
+          <wm-radiobutton #radioButton3 id="radioButton3" [model]="model.radioButton3" class="radioButton3" tabindex="3"></wm-radiobutton>
+          <wm-radiobutton #radioButton4 id="radioButton4" [model]="model.radioButton4" class="radioButton4" tabindex="4"></wm-radiobutton>
+</wm-groupbox>
+                        <wm-textbox #textBox3 id="textBox3" [model]="model.textBox3" class="textBox3" tabindex="32"></wm-textbox>
+                        <wm-label #label10 id="label10" [model]="model.label10" class="label10" tabindex="33">PRICE</wm-label>
+                    </div>
+                </ng-template>
+            </wm-window>
+        </div>

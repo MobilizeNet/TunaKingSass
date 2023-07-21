@@ -1,0 +1,331 @@
+@use "node_modules/@mobilize/winforms-components/src/SCSS/components" as components;
+@use "node_modules/@mobilize/winforms-components/src/SCSS/variables" as variables;
+
+.TKS_frmCustomer {
+    left: -1px;
+    top: -1px;
+
+    .k-content.k-window-content {
+        border-color: #b4b4b4;
+    }
+    .frmCustomer {
+        background-color: White;
+        width: 388px;
+        height: 498px;
+        overflow: hidden;
+    }
+    .btnCancel {
+        $tmp : variables.button-theme-values(
+            $top: 465px,
+            $left: 240px,
+            $background: #fafafa,
+        );
+        @include components.button-theme($tmp);
+    }
+    .btnSave {
+        $tmp : variables.button-theme-values(
+            $top: 465px,
+            $left: 80px,
+            $background: #fafafa,
+        );
+        @include components.button-theme($tmp);
+    }
+    .lblFirstName {
+        $tmp : variables.label-theme-values(
+            $top: 38px, 
+            $left: 24px, 
+            $background: white,
+        );
+        @include components.label-theme($tmp);
+    }
+    .lblLastName {
+        $tmp : variables.label-theme-values(
+            $top: 84px, 
+            $left: 24px, 
+            $background: white,
+        );
+        @include components.label-theme($tmp);
+    }
+    .lblPhone {
+        $tmp : variables.label-theme-values(
+            $top: 131px, 
+            $left: 24px, 
+            $background: white,
+        );
+        @include components.label-theme($tmp);
+    }
+    .lblEmail {
+        $tmp : variables.label-theme-values(
+            $top: 176px, 
+            $left: 24px, 
+            $background: white,
+        );
+        @include components.label-theme($tmp);
+    }
+    .lblStreet {
+        $tmp : variables.label-theme-values(
+            $top: 224px, 
+            $left: 24px, 
+            $background: white,
+        );
+        @include components.label-theme($tmp);
+    }
+    .lblCity {
+        $tmp : variables.label-theme-values(
+            $top: 303px, 
+            $left: 24px, 
+            $background: white,
+        );
+        @include components.label-theme($tmp);
+    }
+    .lblState {
+        $tmp : variables.label-theme-values(
+            $top: 356px, 
+            $left: 24px, 
+            $background: white,
+        );
+        @include components.label-theme($tmp);
+    }
+    .lblZip {
+        $tmp : variables.label-theme-values(
+            $top: 413px, 
+            $left: 24px, 
+            $background: white,
+        );
+        @include components.label-theme($tmp);
+    }
+    .mskPhone {
+        left: 118px;
+        top: 132px;
+        width: 235px;
+        height: 20px;
+        position: absolute;
+    }
+    .txtFirstName {
+        $tmp: variables.textbox-theme-values(
+            $top: 38px,
+            $left: 118px,
+            $width: 235px,
+            $height: 20px,
+            $border-color: black,
+        );
+        @include components.textbox-theme($tmp);
+    }
+    .txtLastName {
+        $tmp: variables.textbox-theme-values(
+            $top: 84px,
+            $left: 118px,
+            $width: 235px,
+            $height: 20px,
+            $border-color: black,
+        );
+        @include components.textbox-theme($tmp);
+    }
+    .txtEmail {
+        $tmp: variables.textbox-theme-values(
+            $top: 177px,
+            $left: 118px,
+            $width: 235px,
+            $height: 20px,
+            $border-color: black,
+        );
+        @include components.textbox-theme($tmp);
+    }
+    .txtStreet {
+        $tmp: variables.textbox-theme-values(
+            $top: 225px,
+            $left: 118px,
+            $width: 235px,
+            $height: 53px,
+            $border-color: black,
+        );
+        @include components.textbox-theme($tmp);
+    }
+    .txtCity {
+        $tmp: variables.textbox-theme-values(
+            $top: 304px,
+            $left: 118px,
+            $width: 235px,
+            $height: 20px,
+            $border-color: black,
+        );
+        @include components.textbox-theme($tmp);
+    }
+    .TKS_frmCustomer .txtZip {
+        $tmp: variables.textbox-theme-values(
+            $top: 413px,
+            $left: 118px,
+            $width: 235px,
+            $height: 20px,
+            $border-color: black,
+        );
+        @include components.textbox-theme($tmp);
+    }
+    .TKS_frmCustomer .cboState {
+        $tmp: variables.combobox-theme-values(
+            $top: 357px,
+            $left: 118px,
+            $width: 235px,
+            $height: 21px,
+        );
+        @include components.combobox-theme($tmp);
+    }
+}
+/*
+.TKS_frmCustomer .frmCustomer {
+    background-color: White;
+    width: 388px;
+    height: 498px;
+    overflow: hidden;
+}
+.TKS_frmCustomer .btnCancel {
+    left: 240px;
+    top: 465px;
+    width: 75px;
+    height: 23px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TKS_frmCustomer .btnSave {
+    left: 80px;
+    top: 465px;
+    width: 75px;
+    height: 23px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TKS_frmCustomer .lblFirstName {
+    width: auto;
+    left: 24px;
+    top: 38px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmCustomer .lblLastName {
+    width: auto;
+    left: 24px;
+    top: 84px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmCustomer .lblPhone {
+    width: auto;
+    left: 24px;
+    top: 131px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmCustomer .lblEmail {
+    width: auto;
+    left: 24px;
+    top: 176px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmCustomer .lblStreet {
+    width: auto;
+    left: 24px;
+    top: 224px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmCustomer .lblCity {
+    width: auto;
+    left: 24px;
+    top: 303px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmCustomer .lblState {
+    width: auto;
+    left: 24px;
+    top: 356px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmCustomer .lblZip {
+    width: auto;
+    left: 24px;
+    top: 413px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmCustomer .mskPhone {
+    left: 118px;
+    top: 132px;
+    width: 235px;
+    height: 20px;
+    position: absolute;
+}
+.TKS_frmCustomer .txtFirstName {
+    left: 118px;
+    top: 38px;
+    width: 235px;
+    height: 20px;
+    position: absolute;
+}
+.TKS_frmCustomer .txtLastName {
+    left: 118px;
+    top: 84px;
+    width: 235px;
+    height: 20px;
+    position: absolute;
+}
+.TKS_frmCustomer .txtEmail {
+    left: 118px;
+    top: 177px;
+    width: 235px;
+    height: 20px;
+    position: absolute;
+}
+.TKS_frmCustomer .txtStreet {
+    left: 118px;
+    top: 225px;
+    width: 235px;
+    height: 53px;
+    position: absolute;
+}
+.TKS_frmCustomer .txtCity {
+    left: 118px;
+    top: 304px;
+    width: 235px;
+    height: 20px;
+    position: absolute;
+}
+.TKS_frmCustomer .txtZip {
+    left: 118px;
+    top: 413px;
+    width: 235px;
+    height: 20px;
+    position: absolute;
+}
+.TKS_frmCustomer .cboState {
+    left: 118px;
+    top: 357px;
+    width: 235px;
+    height: 21px;
+    position: absolute;
+}
+*/

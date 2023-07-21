@@ -1,0 +1,42 @@
+@use "node_modules/@mobilize/winforms-components/src/SCSS/components" as components;
+@use "node_modules/@mobilize/winforms-components/src/SCSS/variables" as variables;
+
+.TKS_frmListData {
+    left: -1px;
+    top: -1px;
+}
+.TKS_frmListData .frmListData {
+    background-color: White;
+    width: 230px;
+    height: 317px;
+    overflow: hidden;
+}
+.TKS_frmListData .lbxData {
+    left: 12px;
+    top: 12px;
+    width: 206px;
+    height: 251px;
+    position: absolute;
+}
+.TKS_frmListData .btnSelect {
+    left: 22px;
+    top: 282px;
+    width: 75px;
+    height: 23px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TKS_frmListData .btnClose {
+    left: 129px;
+    top: 282px;
+    width: 75px;
+    height: 23px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}

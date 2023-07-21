@@ -1,0 +1,17 @@
+<wm-usercontrol [model]="model"><div *ngIf="model && model.Visible" class="TKS_UOCollapsableControl">
+    <div class="UOCollapsableControl" [ngStyle]="setMyStyle()" [ngClass]="class" name="UOCollapsableControl">
+        <wm-panel #pnlHeader id="pnlHeader" [model]="model.pnlHeader" class="pnlHeader" tabindex="1">
+<wm-button #btnCollapseExpand id="btnCollapseExpand" [model]="model.btnCollapseExpand" class="btnCollapseExpand" tabindex="1"></wm-button>
+<wm-label #lblHeader id="lblHeader" [model]="model.lblHeader" class="lblHeader" tabindex="2">Top Higlights</wm-label>
+</wm-panel>
+        <wm-panel #pnlCollapsable id="pnlCollapsable" [model]="model.pnlCollapsable" class="pnlCollapsable" tabindex="2">
+<wm-button #btnCreateCustomer id="btnCreateCustomer" [model]="model.btnCreateCustomer" class="btnCreateCustomer" tabindex="1"></wm-button>
+<wm-button #btnCreateOrder id="btnCreateOrder" [model]="model.btnCreateOrder" class="btnCreateOrder" tabindex="2"></wm-button>
+<wm-button #btnCreateProduct id="btnCreateProduct" [model]="model.btnCreateProduct" class="btnCreateProduct" tabindex="3"></wm-button>
+<wm-button #btnRoles id="btnRoles" [model]="model.btnRoles" class="btnRoles" tabindex="4"></wm-button>
+<wm-button #btnCreateUser id="btnCreateUser" [model]="model.btnCreateUser" class="btnCreateUser" tabindex="5"></wm-button>
+<wm-button #btnList id="btnList" [model]="model.btnList" class="btnList" tabindex="6"></wm-button>
+<wm-button #buttonMaintenance id="buttonMaintenance" [model]="model.buttonMaintenance" class="buttonMaintenance" tabindex="7"></wm-button>
+</wm-panel>
+    </div>
+</div></wm-usercontrol>

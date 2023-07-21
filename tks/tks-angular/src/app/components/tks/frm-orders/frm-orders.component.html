@@ -1,0 +1,38 @@
+<div *ngIf="model">
+            <wm-window [model]="model" id="frmOrders" class="TKS_frmOrders">
+                <ng-template let-model>
+                    <div class="frmOrders">
+                        <wm-panel #pnlOrder id="pnlOrder" [model]="model.pnlOrder" class="pnlOrder" tabindex="18">
+<wm-groupbox #gbxUsers id="gbxUsers" [model]="model.gbxUsers" class="gbxUsers" tabindex="11">
+          <wm-listbox #lbxCustomers id="lbxCustomers" [model]="model.lbxCustomers" class="lbxCustomers" tabindex="9"></wm-listbox>
+</wm-groupbox>
+<wm-label #lb id="lb" [model]="model.lb" class="lb" tabindex="12">Arrival Date</wm-label>
+<wm-groupbox #grbProduct id="grbProduct" [model]="model.grbProduct" class="grbProduct" tabindex="10">
+          <wm-listbox #lbxProducts id="lbxProducts" [model]="model.lbxProducts" class="lbxProducts" tabindex="2"></wm-listbox>
+</wm-groupbox>
+<wm-datetimepicker #dtpArrival id="dtpArrival" [model]="model.dtpArrival" class="dtpArrival" format="dddd, MMMM dd, yyyy" tabindex="13"></wm-datetimepicker>
+<wm-datetimepicker #dtpShipping id="dtpShipping" [model]="model.dtpShipping" class="dtpShipping" format="dddd, MMMM dd, yyyy" tabindex="8"></wm-datetimepicker>
+<wm-label #lblStaff id="lblStaff" [model]="model.lblStaff" class="lblStaff" tabindex="14">Processed By</wm-label>
+<wm-label #lbsShipDate id="lbsShipDate" [model]="model.lbsShipDate" class="lbsShipDate" tabindex="7">Shipping Date</wm-label>
+<wm-combobox #cboStaff id="cboStaff" [model]="model.cboStaff" class="cboStaff" tabindex="15"></wm-combobox>
+<wm-textbox #txtOrder id="txtOrder" [model]="model.txtOrder" class="txtOrder" tabindex="6"></wm-textbox>
+<wm-label #lblStore id="lblStore" [model]="model.lblStore" class="lblStore" tabindex="16">Store</wm-label>
+<wm-datetimepicker #dtpOrder id="dtpOrder" [model]="model.dtpOrder" class="dtpOrder" format="dddd, MMMM dd, yyyy" tabindex="4"></wm-datetimepicker>
+<wm-combobox #cboStore id="cboStore" [model]="model.cboStore" class="cboStore" tabindex="17"></wm-combobox>
+<wm-label #lblOrderDate id="lblOrderDate" [model]="model.lblOrderDate" class="lblOrderDate" tabindex="3">Order Date</wm-label>
+<wm-label #lblOrderN id="lblOrderN" [model]="model.lblOrderN" class="lblOrderN" tabindex="5">Order Number</wm-label>
+<wm-label #lblQuantity id="lblQuantity" [model]="model.lblQuantity" class="lblQuantity" tabindex="18">Quantity</wm-label>
+<wm-numericupdown #numQuantity id="numQuantity" [model]="model.numQuantity" class="numQuantity" tabindex="19"></wm-numericupdown>
+<wm-label #lblPrice id="lblPrice" [model]="model.lblPrice" class="lblPrice" tabindex="20">Price</wm-label>
+<wm-label #lblDiscount id="lblDiscount" [model]="model.lblDiscount" class="lblDiscount" tabindex="22">Discount</wm-label>
+<wm-numericupdown #numDiscount id="numDiscount" [model]="model.numDiscount" class="numDiscount" tabindex="23"></wm-numericupdown>
+<wm-numericupdown #numPrice id="numPrice" [model]="model.numPrice" class="numPrice" tabindex="24"></wm-numericupdown>
+</wm-panel>
+                        <wm-button #btnPlaceOrder id="btnPlaceOrder" [model]="model.btnPlaceOrder" class="btnPlaceOrder" tabindex="19"></wm-button>
+                        <tks-uc-ok-cancel #ucOkCancel1 id="ucOkCancel1" [model]="model.ucOkCancel1" class="ucOkCancel1" tabindex="20">
+</tks-uc-ok-cancel>
+                        <tk-sfrm-white-form-inheritance #frmWhiteFormInheritance id="frmWhiteFormInheritance" [model]="model" class="frmWhiteFormInheritance" tabindex="0"></tk-sfrm-white-form-inheritance>
+                    </div>
+                </ng-template>
+            </wm-window>
+        </div>

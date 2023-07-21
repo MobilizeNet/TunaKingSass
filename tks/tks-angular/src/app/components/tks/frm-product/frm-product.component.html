@@ -1,0 +1,26 @@
+<div *ngIf="model">
+            <wm-window [model]="model" id="frmProduct" class="TKS_frmProduct">
+                <ng-template let-model>
+                    <div class="frmProduct">
+                        <wm-button #btnSave id="btnSave" [model]="model.btnSave" class="btnSave" tabindex="1"></wm-button>
+                        <wm-button #button2 id="button2" [model]="model.button2" class="button2" tabindex="2"></wm-button>
+                        <wm-link-label #lnkCategory id="lnkCategory" [model]="model.lnkCategory" class="lnkCategory" tabindex="3">Category</wm-link-label>
+                        <wm-label #lblName id="lblName" [model]="model.lblName" class="lblName" tabindex="4">Name</wm-label>
+                        <wm-link-label #lnkBrand id="lnkBrand" [model]="model.lnkBrand" class="lnkBrand" tabindex="5">Brand</wm-link-label>
+                        <wm-label #lblModel id="lblModel" [model]="model.lblModel" class="lblModel" tabindex="6">Model Year</wm-label>
+                        <wm-label #lblPrice id="lblPrice" [model]="model.lblPrice" class="lblPrice" tabindex="7">Price</wm-label>
+                        <wm-textbox #txtName id="txtName" [model]="model.txtName" class="txtName" tabindex="8"></wm-textbox>
+                        <wm-numericupdown #numPrice id="numPrice" [model]="model.numPrice" class="numPrice" tabindex="9"></wm-numericupdown>
+                        <wm-combobox #cboModel id="cboModel" [model]="model.cboModel" class="cboModel" tabindex="10"></wm-combobox>
+                        <wm-combobox #cboBrand id="cboBrand" [model]="model.cboBrand" class="cboBrand" tabindex="11"></wm-combobox>
+                        <wm-combobox #cboCategory id="cboCategory" [model]="model.cboCategory" class="cboCategory" tabindex="12"></wm-combobox>
+                        <wm-button #btnVerify id="btnVerify" [model]="model.btnVerify" class="btnVerify" tabindex="13"></wm-button>
+                        <wm-label #lblNameAlert id="lblNameAlert" [model]="model.lblNameAlert" class="lblNameAlert" tabindex="14"></wm-label>
+                        <wm-label #lblBrandAlert id="lblBrandAlert" [model]="model.lblBrandAlert" class="lblBrandAlert" tabindex="15"></wm-label>
+                        <wm-label #lblCategoryAlert id="lblCategoryAlert" [model]="model.lblCategoryAlert" class="lblCategoryAlert" tabindex="16"></wm-label>
+                        <wm-label #lblModelAlert id="lblModelAlert" [model]="model.lblModelAlert" class="lblModelAlert" tabindex="17"></wm-label>
+                        <wm-label #lblPriceAlert id="lblPriceAlert" [model]="model.lblPriceAlert" class="lblPriceAlert" tabindex="18"></wm-label>
+                    </div>
+                </ng-template>
+            </wm-window>
+        </div>

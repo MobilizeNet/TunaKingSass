@@ -1,0 +1,11 @@
+<div *ngIf="model">
+            <wm-window [model]="model" id="frmListData" class="TKS_frmListData">
+                <ng-template let-model>
+                    <div class="frmListData">
+                        <wm-listbox #lbxData id="lbxData" [model]="model.lbxData" class="lbxData" tabindex="1"></wm-listbox>
+                        <wm-button #btnSelect id="btnSelect" [model]="model.btnSelect" class="btnSelect" tabindex="2"></wm-button>
+                        <wm-button #btnClose id="btnClose" [model]="model.btnClose" class="btnClose" tabindex="3"></wm-button>
+                    </div>
+                </ng-template>
+            </wm-window>
+        </div>

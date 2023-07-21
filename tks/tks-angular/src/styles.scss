@@ -1,0 +1,8 @@
+@use '../node_modules/@progress/kendo-theme-default/dist/all.scss' as Kendo;
+@use '../node_modules/@mobilize/winforms-components/src/SCSS' as webMap;
+
+body {
+    background-color: lightgrey;
+}
+
+@include webMap.wm-theme();

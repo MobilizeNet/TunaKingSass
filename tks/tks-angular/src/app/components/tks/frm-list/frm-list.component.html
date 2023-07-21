@@ -1,0 +1,14 @@
+<div *ngIf="model">
+            <wm-window [model]="model" id="frmList" class="TKS_frmList">
+                <ng-template let-model>
+                    <div class="frmList">
+                        <wm-tabcontrol #tpgOrders [id]="'tpgOrders'" [windowModel]="model" class="tpgOrders" tabindex="2">
+<tks-frm-listtab-page1 #tabPage1 id="tabPage1" [windowModel]="model" tabindex="0"></tks-frm-listtab-page1>
+<tks-frm-listtbp-users #tbpUsers id="tbpUsers" [windowModel]="model" tabindex="0"></tks-frm-listtbp-users>
+<tks-frm-listtbp-customers #tbpCustomers id="tbpCustomers" [windowModel]="model" tabindex="0"></tks-frm-listtbp-customers>
+<tks-frm-listtbp-products #tbpProducts id="tbpProducts" [windowModel]="model" tabindex="0"></tks-frm-listtbp-products>
+</wm-tabcontrol>
+                    </div>
+                </ng-template>
+            </wm-window>
+        </div>

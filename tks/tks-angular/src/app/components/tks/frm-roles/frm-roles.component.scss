@@ -1,0 +1,127 @@
+@use "node_modules/@mobilize/winforms-components/src/SCSS/components" as components;
+@use "node_modules/@mobilize/winforms-components/src/SCSS/variables" as variables;
+
+// Old Customization
+
+// .TKS_frmRoles .lbxRoles .k-listbox {
+//     border-width: 2px;
+//     border-style: dotted;
+//     border-color: #38a3a5;
+// }
+
+// .TKS_frmRoles .lbxRoles .k-listbox .k-list-scroller .k-list .k-list-content .k-list-ul .k-list-item {
+//     font-family: monospace;
+// }
+
+// .TKS_frmRoles .lbxRoles .k-listbox .k-list-scroller .k-list .k-list-content .k-list-ul .k-list-item.k-selected {
+//     background-color: #9b5de5;
+//     color: #00f5d4;
+// }
+
+.TKS_frmRoles {
+    left: -1px;
+    top: -1px;
+
+    .frmRoles {
+        background-color: White;
+        width: 596px;
+        height: 455px;
+        overflow: hidden;
+
+        // Global Button Theme in this form
+        $tmp: variables.button-theme-values(
+            $background: #c7f9cc,
+            $border-color: #38a3a5,
+            $border-hover: #9b5de5,
+            $border-radius: 5px,
+            $border-width: 2px,
+        );
+        @include components.button-theme($tmp);
+
+        .lbxRoles {
+            $myTheme: variables.listbox-theme-values(
+                $left: 341px,
+                $top: 58px,
+                $width: 243px,
+                $height: 329px,
+                $font-family: monospace,
+                $border-color: #38a3a5,
+                $border-width: 2px,
+                $border-style: dotted,
+                $background-item-selected: #9b5de5,
+		        $foreground-item-selected: #00f5d4,
+            );
+            @include components.listbox-theme($myTheme);
+        }
+
+        .btnAdd {
+            $tmp: variables.button-theme-values(
+                $left: 280px,
+                $top: 210px,
+                $width: 33px,
+                $height: 29px,
+            );
+            @include components.button-theme($tmp);
+        }
+
+        .btnRemove {
+            $tmp: variables.button-theme-values(
+                $left: 280px,
+                $top: 163px,
+                $width: 33px,
+                $height: 29px,
+            );
+            @include components.button-theme($tmp);
+        }
+
+        .lblSecurityLevel {
+            $tmp: variables.label-theme-values(
+                $left: 12px,
+                $top: 15px,
+                $background: transparent,
+            );
+            @include components.label-theme($tmp);
+        }
+
+        .tvwUser {
+            $tmp: variables.treeview-theme-values(
+                $left: 12px,
+                $top: 58px,
+                $width: 245px,
+                $height: 333px,
+            );
+            @include components.treeview-theme($tmp);
+        }
+
+        .txtSecurityLevel {
+            $tmp: variables.textbox-theme-values(
+                $left: 95px,
+                $top: 12px,
+                $width: 141px,
+                $height: 20px,
+            );
+            @include components.textbox-theme($tmp);
+        }
+
+        .btnSecurityLevel {
+            $tmp: variables.button-theme-values(
+                $left: 116px,
+                $top: 410px,
+                $width: 141px,
+                $height: 23px,
+            );
+            @include components.button-theme($tmp);
+        }
+
+        wm-usercontrol .ucOkCancel1 {
+            $tmp: variables.usercontrol-theme-values(
+                $left: 293px,
+                $top: 396px,
+                $width: 291px,
+                $height: 52px,
+                $position: absolute,
+            );
+            @include components.usercontrol-theme($tmp);
+        }
+    }
+}

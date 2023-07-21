@@ -1,0 +1,93 @@
+@use "node_modules/@mobilize/winforms-components/src/SCSS/components" as components;
+@use "node_modules/@mobilize/winforms-components/src/SCSS/variables" as variables;
+
+.TKS_frmUser {
+    left: -1px;
+    top: -1px;
+}
+.TKS_frmUser .frmUser {
+    background-color: White;
+    width: 340px;
+    height: 232px;
+    overflow: hidden;
+}
+.TKS_frmUser wm-usercontrol .ucOkCancel {
+    background-color: White;
+    left: 8px;
+    top: 166px;
+    width: 291px;
+    height: 52px;
+    position: absolute;
+}
+.TKS_frmUser .lblId {
+    width: auto;
+    left: 25px;
+    top: 37px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmUser .lblPassword {
+    width: auto;
+    left: 25px;
+    top: 77px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmUser .lblEmail {
+    width: auto;
+    left: 25px;
+    top: 123px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmUser .txtId {
+    left: 119px;
+    top: 35px;
+    width: 173px;
+    height: 20px;
+    position: absolute;
+}
+.TKS_frmUser .txtEmail {
+    left: 119px;
+    top: 121px;
+    width: 173px;
+    height: 20px;
+    position: absolute;
+}
+.TKS_frmUser .txtPassword {
+    left: 119px;
+    top: 75px;
+    width: 173px;
+    height: 20px;
+    position: absolute;
+}
+.TKS_frmUser .chkId {
+    width: auto;
+    background-color: White;
+    left: 309px;
+    top: 37px;
+    height: auto;
+    position: absolute;
+}
+.TKS_frmUser .chkPassword {
+    width: auto;
+    background-color: White;
+    left: 309px;
+    top: 78px;
+    height: auto;
+    position: absolute;
+}
+.TKS_frmUser .chkEmail {
+    width: auto;
+    background-color: White;
+    left: 309px;
+    top: 124px;
+    height: auto;
+    position: absolute;
+}

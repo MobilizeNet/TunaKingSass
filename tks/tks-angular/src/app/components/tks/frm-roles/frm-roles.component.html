@@ -1,0 +1,17 @@
+<div *ngIf="model">
+            <wm-window [model]="model" id="frmRoles" class="TKS_frmRoles">
+                <ng-template let-model>
+                    <div class="frmRoles">
+                        <wm-treeview #tvwUser id="tvwUser" [model]="model.tvwUser" class="tvwUser" tabindex="1"></wm-treeview>
+                        <wm-button #btnRemove id="btnRemove" [model]="model.btnRemove" class="btnRemove" tabindex="3"></wm-button>
+                        <wm-button #btnAdd id="btnAdd" [model]="model.btnAdd" class="btnAdd" tabindex="4"></wm-button>
+                        <wm-listbox #lbxRoles id="lbxRoles" [model]="model.lbxRoles" class="lbxRoles" tabindex="5"></wm-listbox>
+                        <tks-uc-ok-cancel #ucOkCancel1 id="ucOkCancel1" [model]="model.ucOkCancel1" class="ucOkCancel1" tabindex="6">
+</tks-uc-ok-cancel>
+                        <wm-textbox #txtSecurityLevel id="txtSecurityLevel" [model]="model.txtSecurityLevel" class="txtSecurityLevel" tabindex="7"></wm-textbox>
+                        <wm-label #lblSecurityLevel id="lblSecurityLevel" [model]="model.lblSecurityLevel" class="lblSecurityLevel" tabindex="8">Security Level:</wm-label>
+                        <wm-button #btnSecurityLevel id="btnSecurityLevel" [model]="model.btnSecurityLevel" class="btnSecurityLevel" tabindex="9"></wm-button>
+                    </div>
+                </ng-template>
+            </wm-window>
+        </div>

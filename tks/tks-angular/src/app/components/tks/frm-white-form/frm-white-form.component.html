@@ -1,0 +1,9 @@
+<div *ngIf="model">
+            <wm-window [model]="model" id="frmWhiteForm" class="TKS_frmWhiteForm">
+                <ng-template let-model>
+                    <div class="frmWhiteForm">
+                        <tk-sfrm-white-form-inheritance #frmWhiteFormInheritance id="frmWhiteFormInheritance" [model]="model" class="frmWhiteFormInheritance" tabindex="0"></tk-sfrm-white-form-inheritance>
+                    </div>
+                </ng-template>
+            </wm-window>
+        </div>

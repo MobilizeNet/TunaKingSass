@@ -1,0 +1,19 @@
+<div *ngIf="model">
+            <wm-window [model]="model" id="frmUser" class="TKS_frmUser">
+                <ng-template let-model>
+                    <div class="frmUser">
+                        <tks-uc-ok-cancel #ucOkCancel id="ucOkCancel" [model]="model.ucOkCancel" class="ucOkCancel" tabindex="2">
+</tks-uc-ok-cancel>
+                        <wm-label #lblId id="lblId" [model]="model.lblId" class="lblId" tabindex="3">ID</wm-label>
+                        <wm-label #lblPassword id="lblPassword" [model]="model.lblPassword" class="lblPassword" tabindex="4">Password</wm-label>
+                        <wm-label #lblEmail id="lblEmail" [model]="model.lblEmail" class="lblEmail" tabindex="5">E-mail</wm-label>
+                        <wm-textbox #txtId id="txtId" [model]="model.txtId" class="txtId" tabindex="6"></wm-textbox>
+                        <wm-textbox #txtEmail id="txtEmail" [model]="model.txtEmail" class="txtEmail" tabindex="7"></wm-textbox>
+                        <wm-textbox #txtPassword id="txtPassword" [model]="model.txtPassword" class="txtPassword" tabindex="8"></wm-textbox>
+                        <wm-checkbox #chkId id="chkId" [model]="model.chkId" class="chkId" tabindex="9"></wm-checkbox>
+                        <wm-checkbox #chkPassword id="chkPassword" [model]="model.chkPassword" class="chkPassword" tabindex="10"></wm-checkbox>
+                        <wm-checkbox #chkEmail id="chkEmail" [model]="model.chkEmail" class="chkEmail" tabindex="11"></wm-checkbox>
+                    </div>
+                </ng-template>
+            </wm-window>
+        </div>

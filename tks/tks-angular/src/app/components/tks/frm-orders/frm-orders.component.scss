@@ -1,0 +1,210 @@
+@use "node_modules/@mobilize/winforms-components/src/SCSS/components" as components;
+@use "node_modules/@mobilize/winforms-components/src/SCSS/variables" as variables;
+
+.TKS_frmOrders {
+    left: -1px;
+    top: -1px;
+}
+.TKS_frmOrders .frmOrders {
+    width: 816px;
+    height: 652px;
+    overflow: hidden;
+}
+.TKS_frmOrders .pnlOrder {
+    left: 12px;
+    top: 12px;
+    width: 781px;
+    height: 546px;
+    position: absolute;
+}
+.TKS_frmOrders .gbxUsers {
+    left: 431px;
+    top: 306px;
+    width: 323px;
+    height: 197px;
+    position: absolute;
+}
+.TKS_frmOrders .lbxCustomers {
+    left: 5px;
+    top: 19px;
+    width: 312px;
+    height: 173px;
+    position: absolute;
+}
+.TKS_frmOrders .lb {
+    width: auto;
+    left: 568px;
+    top: 74px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmOrders .grbProduct {
+    left: 42px;
+    top: 301px;
+    width: 323px;
+    height: 202px;
+    position: absolute;
+}
+.TKS_frmOrders .lbxProducts {
+    left: 6px;
+    top: 22px;
+    width: 311px;
+    height: 173px;
+    position: absolute;
+}
+.TKS_frmOrders .dtpArrival {
+    left: 636px;
+    top: 69px;
+    width: 87px;
+    height: 20px;
+    position: absolute;
+}
+.TKS_frmOrders .dtpShipping {
+    left: 365px;
+    top: 68px;
+    width: 87px;
+    height: 20px;
+    position: absolute;
+}
+.TKS_frmOrders .lblStaff {
+    width: auto;
+    left: 39px;
+    top: 143px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmOrders .lbsShipDate {
+    width: auto;
+    left: 285px;
+    top: 74px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmOrders .cboStaff {
+    left: 131px;
+    top: 140px;
+    width: 183px;
+    height: 21px;
+    position: absolute;
+}
+.TKS_frmOrders .txtOrder {
+    left: 95px;
+    top: 11px;
+    width: 46px;
+    height: 20px;
+    position: absolute;
+}
+.TKS_frmOrders .lblStore {
+    width: auto;
+    left: 433px;
+    top: 143px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmOrders .dtpOrder {
+    left: 104px;
+    top: 69px;
+    width: 87px;
+    height: 20px;
+    position: absolute;
+}
+.TKS_frmOrders .cboStore {
+    left: 489px;
+    top: 140px;
+    width: 183px;
+    height: 21px;
+    position: absolute;
+}
+.TKS_frmOrders .lblOrderDate {
+    width: auto;
+    left: 39px;
+    top: 74px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmOrders .lblOrderN {
+    width: auto;
+    left: 16px;
+    top: 14px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmOrders .lblQuantity {
+    width: auto;
+    left: 33px;
+    top: 229px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmOrders .numQuantity {
+    left: 122px;
+    top: 227px;
+    width: 73px;
+    height: 20px;
+    position: absolute;
+}
+.TKS_frmOrders .lblPrice {
+    width: auto;
+    left: 276px;
+    top: 229px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmOrders .lblDiscount {
+    width: auto;
+    left: 559px;
+    top: 229px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmOrders .numDiscount {
+    left: 638px;
+    top: 227px;
+    width: 73px;
+    height: 20px;
+    position: absolute;
+}
+.TKS_frmOrders .numPrice {
+    left: 351px;
+    top: 227px;
+    width: 73px;
+    height: 20px;
+    position: absolute;
+}
+.TKS_frmOrders .btnPlaceOrder {
+    left: 347px;
+    top: 592px;
+    width: 103px;
+    height: 23px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TKS_frmOrders wm-usercontrol .ucOkCancel1 {
+    left: 502px;
+    top: 576px;
+    background-color: White;
+    width: 291px;
+    height: 52px;
+    position: absolute;
+}

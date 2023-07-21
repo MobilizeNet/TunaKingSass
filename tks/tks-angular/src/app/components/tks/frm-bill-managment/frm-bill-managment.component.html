@@ -1,0 +1,15 @@
+<div *ngIf="model">
+            <wm-window [model]="model" id="FrmBillManagment" class="TKS_FrmBillManagment">
+                <ng-template let-model>
+                    <div class="FrmBillManagment">
+                        <wm-panel #panel1 id="panel1" [model]="model.panel1" class="panel1" tabindex="1">
+<wm-button #btnBack id="btnBack" [model]="model.btnBack" class="btnBack" tabindex="1"></wm-button>
+<wm-button #btnNext id="btnNext" [model]="model.btnNext" class="btnNext" tabindex="2"></wm-button>
+<wm-button #btnCancel id="btnCancel" [model]="model.btnCancel" class="btnCancel" tabindex="3"></wm-button>
+</wm-panel>
+                        <wm-panel #pnlContent id="pnlContent" [model]="model.pnlContent" class="pnlContent" tabindex="3">
+</wm-panel>
+                    </div>
+                </ng-template>
+            </wm-window>
+        </div>
