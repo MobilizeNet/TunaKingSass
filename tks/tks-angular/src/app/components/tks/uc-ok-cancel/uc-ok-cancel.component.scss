@@ -1,30 +1,39 @@
 @use "node_modules/@mobilize/winforms-components/src/SCSS/components" as components;
 @use "node_modules/@mobilize/winforms-components/src/SCSS/variables" as variables;
 .TKS_ucOkCancel .ucOkCancel {
-    background-color: White;
-    width: 291px;
-    height: 52px;
-    position: absolute;
+    $tmp: variables.usercontrol-theme-values(
+        $background: White,
+        $width: 291px,
+        $height: 52px,
+        $position: absolute,
+    );
+    @include components.usercontrol-theme($tmp);
 }
 .TKS_ucOkCancel .btnOk {
-    left: 25px;
-    top: 15px;
-    width: 75px;
-    height: 23px;
-    position: absolute;
+    $tmp: variables.button-theme-values(
+        $left: 25px,
+        $top: 15px,
+        $width: 75px,
+        $height: 23px,
+        $position: absolute,
+    );
     padding: 0px 0px 0px 0px;
     display: table-cell;
     vertical-align: middle;
     display: table-cell;
+    @include components.button-theme($tmp);
 }
 .TKS_ucOkCancel .btnCancel {
-    left: 182px;
-    top: 15px;
-    width: 75px;
-    height: 23px;
-    position: absolute;
+    $tmp: variables.button-theme-values(
+        $left: 182px,
+        $top: 15px,
+        $width: 75px,
+        $height: 23px,
+        $position: absolute,
+    );
     padding: 0px 0px 0px 0px;
     display: table-cell;
     vertical-align: middle;
     display: table-cell;
+    @include components.button-theme($tmp);
 }

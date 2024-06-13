@@ -6,69 +6,105 @@
     top: -1px;
 }
 .TKS_frmMain .frmMain {
-    background-color: rgba(255, 255, 255, 1);
-    width: 1244px;
-    height: 821px;
-    overflow: hidden;
+    $tmp: variables.window-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $width: 1244px,
+        $height: 821px,
+        $overflow: hidden,
+    );
+    @include components.window-theme($tmp);
 }
 .TKS_frmMain .menuStrip1 {
-    background-color: #D9D9F3;
-    left: 0px;
-    top: 0px;
-    width: 1244px;
-    height: 24px;
-    position: absolute;
+    $tmp: variables.toolstrip-theme-values(
+        $background: #D9D9F3,
+        $left: 0px,
+        $top: 0px,
+        $width: 1244px,
+        $height: 24px,
+        $position: absolute,
+    );
+    @include components.toolstrip-theme($tmp);
 }
 .TKS_frmMain .rolesToolStripMenuItem {
-    width: 47px;
-    height: 20px;
-    position: absolute;
+    $tmp: variables.toolstrip-menuitem-theme-values(
+        $width: 47px,
+        $height: 20px,
+        $position: relative,
+    );
+    @include components.toolstrip-menuitem-theme($tmp);
 }
 .TKS_frmMain .assignRoleToolStripMenuItem {
-    width: 135px;
-    height: 22px;
-    position: absolute;
+    $tmp: variables.toolstrip-menuitem-theme-values(
+        $width: 135px,
+        $height: 22px,
+        $position: relative,
+    );
+    @include components.toolstrip-menuitem-theme($tmp);
 }
 .TKS_frmMain .personalizationToolStripMenuItem {
-    width: 99px;
-    height: 20px;
-    position: absolute;
+    $tmp: variables.toolstrip-menuitem-theme-values(
+        $width: 99px,
+        $height: 20px,
+        $position: relative,
+    );
+    @include components.toolstrip-menuitem-theme($tmp);
 }
 .TKS_frmMain .ordersToolStripMenuItem {
-    width: 54px;
-    height: 20px;
-    position: absolute;
+    $tmp: variables.toolstrip-menuitem-theme-values(
+        $width: 54px,
+        $height: 20px,
+        $position: relative,
+    );
+    @include components.toolstrip-menuitem-theme($tmp);
 }
 .TKS_frmMain .createOrderToolStripMenuItem {
-    width: 141px;
-    height: 22px;
-    position: absolute;
+    $tmp: variables.toolstrip-menuitem-theme-values(
+        $width: 141px,
+        $height: 22px,
+        $position: relative,
+    );
+    @include components.toolstrip-menuitem-theme($tmp);
 }
 .TKS_frmMain .usersToolStripMenuItem {
-    width: 76px;
-    height: 20px;
-    position: absolute;
+    $tmp: variables.toolstrip-menuitem-theme-values(
+        $width: 76px,
+        $height: 20px,
+        $position: relative,
+    );
+    @include components.toolstrip-menuitem-theme($tmp);
 }
 .TKS_frmMain .viewCustomersToolStripMenuItem {
-    width: 163px;
-    height: 22px;
-    position: absolute;
+    $tmp: variables.toolstrip-menuitem-theme-values(
+        $width: 163px,
+        $height: 22px,
+        $position: relative,
+    );
+    @include components.toolstrip-menuitem-theme($tmp);
 }
 .TKS_frmMain .createCustomerToolStripMenuItem {
-    width: 163px;
-    height: 22px;
-    position: absolute;
+    $tmp: variables.toolstrip-menuitem-theme-values(
+        $width: 163px,
+        $height: 22px,
+        $position: relative,
+    );
+    @include components.toolstrip-menuitem-theme($tmp);
 }
 .TKS_frmMain .fileToolStripMenuItem {
-    width: 37px;
-    height: 20px;
-    position: absolute;
+    $tmp: variables.toolstrip-menuitem-theme-values(
+        $width: 37px,
+        $height: 20px,
+        $position: relative,
+    );
+    @include components.toolstrip-menuitem-theme($tmp);
 }
-.TKS_frmMain wm-usercontrol .uoCollapsableControl1 {
-    background-color: Transparent;
-    left: 0px;
-    top: 25px;
-    width: 226px;
-    height: 793px;
-    position: absolute;
+.TKS_frmMain .uoCollapsableControl1 {
+    $tmp: variables.usercontrol-theme-values(
+        $background: Transparent,
+        $left: 0px,
+        $top: 50px,
+        $width: 226px,
+        $height: 793px,
+        $position: absolute,
+    );
+    @include components.usercontrol-theme($tmp);
 }

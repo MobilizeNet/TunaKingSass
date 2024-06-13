@@ -1,0 +1,81 @@
+.TKS_frmRoles {
+    left: -1px;
+    top: -1px;
+}
+.TKS_frmRoles .frmRoles {
+    background-color: White;
+    width: 596px;
+    height: 455px;
+    overflow: hidden;
+}
+.TKS_frmRoles .tvwUser {
+    left: 12px;
+    top: 58px;
+    width: 245px;
+    height: 333px;
+    position: absolute;
+}
+.TKS_frmRoles .btnRemove {
+    left: 280px;
+    top: 163px;
+    width: 33px;
+    height: 29px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TKS_frmRoles .btnAdd {
+    left: 280px;
+    top: 210px;
+    width: 33px;
+    height: 29px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TKS_frmRoles .lbxRoles {
+    left: 341px;
+    top: 58px;
+    width: 243px;
+    height: 329px;
+    position: absolute;
+}
+.TKS_frmRoles wm-usercontrol .ucOkCancel1 {
+    background-color: White;
+    left: 293px;
+    top: 396px;
+    width: 291px;
+    height: 52px;
+    position: absolute;
+}
+.TKS_frmRoles .txtSecurityLevel {
+    left: 95px;
+    top: 12px;
+    width: 141px;
+    height: 20px;
+    position: absolute;
+}
+.TKS_frmRoles .lblSecurityLevel {
+    width: auto;
+    left: 12px;
+    top: 15px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmRoles .btnSecurityLevel {
+    left: 116px;
+    top: 410px;
+    width: 141px;
+    height: 23px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}

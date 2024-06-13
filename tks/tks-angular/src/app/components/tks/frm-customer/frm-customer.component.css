@@ -1,0 +1,160 @@
+.TKS_frmCustomer {
+    left: -1px;
+    top: -1px;
+}
+.TKS_frmCustomer .frmCustomer {
+    background-color: White;
+    width: 388px;
+    height: 498px;
+    overflow: hidden;
+}
+.TKS_frmCustomer .btnCancel {
+    left: 240px;
+    top: 465px;
+    width: 75px;
+    height: 23px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TKS_frmCustomer .btnSave {
+    left: 80px;
+    top: 465px;
+    width: 75px;
+    height: 23px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TKS_frmCustomer .lblFirstName {
+    width: auto;
+    left: 24px;
+    top: 38px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmCustomer .lblLastName {
+    width: auto;
+    left: 24px;
+    top: 84px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmCustomer .lblPhone {
+    width: auto;
+    left: 24px;
+    top: 131px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmCustomer .lblEmail {
+    width: auto;
+    left: 24px;
+    top: 176px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmCustomer .lblStreet {
+    width: auto;
+    left: 24px;
+    top: 224px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmCustomer .lblCity {
+    width: auto;
+    left: 24px;
+    top: 303px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmCustomer .lblState {
+    width: auto;
+    left: 24px;
+    top: 356px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmCustomer .lblZip {
+    width: auto;
+    left: 24px;
+    top: 413px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_frmCustomer .mskPhone {
+    left: 118px;
+    top: 132px;
+    width: 235px;
+    height: 20px;
+    position: absolute;
+}
+.TKS_frmCustomer .txtFirstName {
+    left: 118px;
+    top: 38px;
+    width: 235px;
+    height: 20px;
+    position: absolute;
+}
+.TKS_frmCustomer .txtLastName {
+    left: 118px;
+    top: 84px;
+    width: 235px;
+    height: 20px;
+    position: absolute;
+}
+.TKS_frmCustomer .txtEmail {
+    left: 118px;
+    top: 177px;
+    width: 235px;
+    height: 20px;
+    position: absolute;
+}
+.TKS_frmCustomer .txtStreet {
+    left: 118px;
+    top: 225px;
+    width: 235px;
+    height: 53px;
+    position: absolute;
+}
+.TKS_frmCustomer .txtCity {
+    left: 118px;
+    top: 304px;
+    width: 235px;
+    height: 20px;
+    position: absolute;
+}
+.TKS_frmCustomer .txtZip {
+    left: 118px;
+    top: 413px;
+    width: 235px;
+    height: 20px;
+    position: absolute;
+}
+.TKS_frmCustomer .cboState {
+    left: 118px;
+    top: 357px;
+    width: 235px;
+    height: 21px;
+    position: absolute;
+}

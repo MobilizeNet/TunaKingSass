@@ -1,0 +1,29 @@
+
+.TKS_ucOkCancel .ucOkCancel {
+    background-color: White;
+    width: 291px;
+    height: 52px;
+    position: absolute;
+}
+.TKS_ucOkCancel .btnOk {
+    left: 25px;
+    top: 15px;
+    width: 75px;
+    height: 23px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TKS_ucOkCancel .btnCancel {
+    left: 182px;
+    top: 15px;
+    width: 75px;
+    height: 23px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}

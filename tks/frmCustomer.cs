@@ -16,7 +16,7 @@ namespace TKS
    {
 
       [Intercepted]
-      private DataHandler DataHandler { get; } = new DataHandler();
+      private DataHandler DataHandler { get; set; } = new DataHandler();
 
 
       /// <summary>

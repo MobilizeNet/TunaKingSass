@@ -6,8 +6,11 @@
     top: -1px;
 }
 .TKS_frmWhiteForm .frmWhiteForm {
-    background-color: White;
-    width: 800px;
-    height: 450px;
-    overflow: hidden;
+    $tmp: variables.window-theme-values(
+        $background: White,
+        $width: 800px,
+        $height: 450px,
+        $overflow: hidden,
+    );
+    @include components.window-theme($tmp);
 }

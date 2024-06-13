@@ -6,15 +6,21 @@
     top: -1px;
 }
 .TKS_frmList .frmList {
-    background-color: White;
-    width: 866px;
-    height: 706px;
-    overflow: hidden;
+    $tmp: variables.window-theme-values(
+        $background: White,
+        $width: 866px,
+        $height: 706px,
+        $overflow: hidden,
+    );
+    @include components.window-theme($tmp);
 }
 .TKS_frmList .tpgOrders {
-    left: 10px;
-    top: 12px;
-    width: 845px;
-    height: 682px;
-    position: absolute;
+    $tmp: variables.tabcontrol-theme-values(
+        $left: 10px,
+        $top: 12px,
+        $width: 845px,
+        $height: 682px,
+        $position: absolute,
+    );
+    @include components.tabcontrol-theme($tmp);
 }

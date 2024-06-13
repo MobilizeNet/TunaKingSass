@@ -1,14 +1,22 @@
+@use "node_modules/@mobilize/winforms-components/src/SCSS/components" as components;
+@use "node_modules/@mobilize/winforms-components/src/SCSS/variables" as variables;
 .TKS_frmListtbpUsers .frmListtbpUsers {
-    left: 4px;
-    top: 22px;
-    width: 837px;
-    height: 656px;
-    position: absolute;
+    $tmp: variables.tabpage-theme-values(
+        $left: 4px,
+        $top: 22px,
+        $width: 837px,
+        $height: 656px,
+        $position: absolute,
+    );
+    @include components.tabpage-theme($tmp);
 }
 .TKS_frmListtbpUsers .grdUsers {
-    left: 6px;
-    top: 6px;
-    width: 825px;
-    height: 644px;
-    position: absolute;
+    $tmp: variables.datagridview-theme-values(
+        $left: 6px,
+        $top: 6px,
+        $width: 825px,
+        $height: 644px,
+        $position: absolute,
+    );
+    @include components.datagridview-theme($tmp);
 }

@@ -1,0 +1,121 @@
+
+.TKS_UOCollapsableControl .UOCollapsableControl {
+    background-color: Transparent;
+    width: 301px;
+    height: 976px;
+    position: absolute;
+}
+.TKS_UOCollapsableControl .pnlHeader {
+    background-color: Lavender;
+    left: 4px;
+    top: 4px;
+    width: 293px;
+    height: 36px;
+    position: absolute;
+}
+.TKS_UOCollapsableControl .btnCollapseExpand {
+    left: 255px;
+    top: 4px;
+    width: 32px;
+    height: 28px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TKS_UOCollapsableControl .lblHeader {
+    width: auto;
+    font-size: 11.25pt;
+    left: 9px;
+    top: 6px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.TKS_UOCollapsableControl .pnlCollapsable {
+    background-color: GhostWhite;
+    left: 4px;
+    top: 39px;
+    width: 293px;
+    height: 932px;
+    position: absolute;
+}
+.TKS_UOCollapsableControl .btnCreateCustomer {
+    background-color: Lavender;
+    top: 4px;
+    width: 293px;
+    height: 28px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TKS_UOCollapsableControl .btnCreateOrder {
+    background-color: Lavender;
+    top: 117px;
+    width: 293px;
+    height: 28px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TKS_UOCollapsableControl .btnCreateProduct {
+    background-color: Lavender;
+    top: 32px;
+    width: 293px;
+    height: 28px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TKS_UOCollapsableControl .btnRoles {
+    background-color: Lavender;
+    top: 145px;
+    width: 293px;
+    height: 28px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TKS_UOCollapsableControl .btnCreateUser {
+    background-color: Lavender;
+    top: 60px;
+    width: 293px;
+    height: 28px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TKS_UOCollapsableControl .btnList {
+    background-color: Lavender;
+    top: 89px;
+    width: 293px;
+    height: 28px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TKS_UOCollapsableControl .buttonMaintenance {
+    background-color: Lavender;
+    top: 172px;
+    width: 293px;
+    height: 28px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}

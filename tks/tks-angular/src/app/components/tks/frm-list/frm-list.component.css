@@ -1,0 +1,17 @@
+.TKS_frmList {
+    left: -1px;
+    top: -1px;
+}
+.TKS_frmList .frmList {
+    background-color: White;
+    width: 866px;
+    height: 706px;
+    overflow: hidden;
+}
+.TKS_frmList .tpgOrders {
+    left: 10px;
+    top: 12px;
+    width: 845px;
+    height: 682px;
+    position: absolute;
+}

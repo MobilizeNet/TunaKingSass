@@ -123,7 +123,7 @@ namespace TKS
          // uoCollapsableControl1
          // 
          this.uoCollapsableControl1.BackColor = System.Drawing.Color.Transparent;
-         this.uoCollapsableControl1.Location = new System.Drawing.Point(0, 25);
+         this.uoCollapsableControl1.Location = new System.Drawing.Point(0, 50);
          this.uoCollapsableControl1.Properties().Margin = new Mobilize.Web.Padding(4, 3, 4, 3);
          this.uoCollapsableControl1.Name = "uoCollapsableControl1";
          this.uoCollapsableControl1.Size = new System.Drawing.Size(226, 793);

@@ -1,0 +1,10 @@
+.TKS_frmWhiteForm {
+    left: -1px;
+    top: -1px;
+}
+.TKS_frmWhiteForm .frmWhiteForm {
+    background-color: White;
+    width: 800px;
+    height: 450px;
+    overflow: hidden;
+}

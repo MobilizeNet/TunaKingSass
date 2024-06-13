@@ -6,210 +6,288 @@
     top: -1px;
 }
 .TKS_CustomersOrders .CustomersOrders {
-    width: 809px;
-    height: 503px;
-    overflow: hidden;
+    $tmp: variables.window-theme-values(
+        $width: 809px,
+        $height: 503px,
+        $overflow: hidden,
+    );
+    @include components.window-theme($tmp);
 }
 .TKS_CustomersOrders .label1 {
-    width: auto;
-    left: 303px;
-    top: 30px;
-    height: auto;
-    position: absolute;
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $left: 303px,
+        $top: 30px,
+        $height: auto,
+        $position: absolute,
+    );
     white-space: nowrap;
     overflow: hidden;
+    @include components.label-theme($tmp);
 }
 .TKS_CustomersOrders .textBox2 {
-    left: 12px;
-    top: 315px;
-    width: 352px;
-    height: 117px;
-    position: absolute;
+    $tmp: variables.textbox-theme-values(
+        $left: 12px,
+        $top: 315px,
+        $width: 352px,
+        $height: 117px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
 }
 .TKS_CustomersOrders .label3 {
-    width: auto;
-    left: 12px;
-    top: 96px;
-    height: auto;
-    position: absolute;
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $left: 12px,
+        $top: 96px,
+        $height: auto,
+        $position: absolute,
+    );
     white-space: nowrap;
     overflow: hidden;
+    @include components.label-theme($tmp);
 }
 .TKS_CustomersOrders .button1 {
-    left: 139px;
-    top: 438px;
-    width: 75px;
-    height: 23px;
-    position: absolute;
+    $tmp: variables.button-theme-values(
+        $left: 139px,
+        $top: 438px,
+        $width: 75px,
+        $height: 23px,
+        $position: absolute,
+    );
     padding: 0px 0px 0px 0px;
     display: table-cell;
     vertical-align: middle;
     display: table-cell;
+    @include components.button-theme($tmp);
 }
 .TKS_CustomersOrders .comboBox1 {
-    left: 139px;
-    top: 89px;
-    width: 140px;
-    height: 24px;
-    position: absolute;
+    $tmp: variables.combobox-theme-values(
+        $left: 139px,
+        $top: 89px,
+        $width: 140px,
+        $height: 24px,
+        $position: absolute,
+    );
+    @include components.combobox-theme($tmp);
 }
 .TKS_CustomersOrders .label4 {
-    width: auto;
-    left: 392px;
-    top: 96px;
-    height: auto;
-    position: absolute;
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $left: 392px,
+        $top: 96px,
+        $height: auto,
+        $position: absolute,
+    );
     white-space: nowrap;
     overflow: hidden;
+    @include components.label-theme($tmp);
 }
 .TKS_CustomersOrders .textBox1 {
-    left: 561px;
-    top: 93px;
-    width: 100px;
-    height: 22px;
-    position: absolute;
+    $tmp: variables.textbox-theme-values(
+        $left: 561px,
+        $top: 93px,
+        $width: 100px,
+        $height: 22px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
 }
 .TKS_CustomersOrders .label5 {
-    width: auto;
-    left: 12px;
-    top: 142px;
-    height: auto;
-    position: absolute;
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $left: 12px,
+        $top: 142px,
+        $height: auto,
+        $position: absolute,
+    );
     white-space: nowrap;
     overflow: hidden;
+    @include components.label-theme($tmp);
 }
 .TKS_CustomersOrders .comboBox2 {
-    left: 139px;
-    top: 135px;
-    width: 140px;
-    height: 24px;
-    position: absolute;
+    $tmp: variables.combobox-theme-values(
+        $left: 139px,
+        $top: 135px,
+        $width: 140px,
+        $height: 24px,
+        $position: absolute,
+    );
+    @include components.combobox-theme($tmp);
 }
 .TKS_CustomersOrders .label6 {
-    width: auto;
-    left: 392px;
-    top: 135px;
-    height: auto;
-    position: absolute;
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $left: 392px,
+        $top: 135px,
+        $height: auto,
+        $position: absolute,
+    );
     white-space: nowrap;
     overflow: hidden;
+    @include components.label-theme($tmp);
 }
 .TKS_CustomersOrders .textBox4 {
-    left: 561px;
-    top: 135px;
-    width: 100px;
-    height: 22px;
-    position: absolute;
+    $tmp: variables.textbox-theme-values(
+        $left: 561px,
+        $top: 135px,
+        $width: 100px,
+        $height: 22px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
 }
 .TKS_CustomersOrders .label7 {
-    width: auto;
-    left: 12px;
-    top: 187px;
-    height: auto;
-    position: absolute;
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $left: 12px,
+        $top: 187px,
+        $height: auto,
+        $position: absolute,
+    );
     white-space: nowrap;
     overflow: hidden;
+    @include components.label-theme($tmp);
 }
 .TKS_CustomersOrders .textBox5 {
-    left: 139px;
-    top: 187px;
-    width: 140px;
-    height: 22px;
-    position: absolute;
+    $tmp: variables.textbox-theme-values(
+        $left: 139px,
+        $top: 187px,
+        $width: 140px,
+        $height: 22px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
 }
 .TKS_CustomersOrders .label8 {
-    width: auto;
-    left: 285px;
-    top: 187px;
-    height: auto;
-    position: absolute;
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $left: 285px,
+        $top: 187px,
+        $height: auto,
+        $position: absolute,
+    );
     white-space: nowrap;
     overflow: hidden;
+    @include components.label-theme($tmp);
 }
 .TKS_CustomersOrders .label9 {
-    width: auto;
-    left: 12px;
-    top: 230px;
-    height: auto;
-    position: absolute;
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $left: 12px,
+        $top: 230px,
+        $height: auto,
+        $position: absolute,
+    );
     white-space: nowrap;
     overflow: hidden;
+    @include components.label-theme($tmp);
 }
 .TKS_CustomersOrders .comboBox3 {
-    left: 139px;
-    top: 227px;
-    width: 140px;
-    height: 24px;
-    position: absolute;
+    $tmp: variables.combobox-theme-values(
+        $left: 139px,
+        $top: 227px,
+        $width: 140px,
+        $height: 24px,
+        $position: absolute,
+    );
+    @include components.combobox-theme($tmp);
 }
 .TKS_CustomersOrders .button2 {
-    left: 664px;
-    top: 350px;
-    width: 84px;
-    height: 52px;
-    position: absolute;
+    $tmp: variables.button-theme-values(
+        $left: 664px,
+        $top: 350px,
+        $width: 84px,
+        $height: 52px,
+        $position: absolute,
+    );
     padding: 0px 0px 0px 0px;
     display: table-cell;
     vertical-align: middle;
     display: table-cell;
+    @include components.button-theme($tmp);
 }
 .TKS_CustomersOrders .label2 {
-    width: auto;
-    left: 147px;
-    top: 282px;
-    height: auto;
-    position: absolute;
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $left: 147px,
+        $top: 282px,
+        $height: auto,
+        $position: absolute,
+    );
     white-space: nowrap;
     overflow: hidden;
+    @include components.label-theme($tmp);
 }
 .TKS_CustomersOrders .groupBox1 {
-    left: 395px;
-    top: 230px;
-    width: 402px;
-    height: 86px;
-    position: absolute;
+    $tmp: variables.groupbox-theme-values(
+        $left: 395px,
+        $top: 230px,
+        $width: 402px,
+        $height: 86px,
+        $position: absolute,
+    );
+    @include components.groupbox-theme($tmp);
 }
 .TKS_CustomersOrders .radioButton1 {
-    width: auto;
-    left: 15px;
-    top: 37px;
-    height: auto;
-    position: absolute;
+    $tmp: variables.radiobutton-theme-values(
+        $width: auto,
+        $left: 15px,
+        $top: 37px,
+        $height: auto,
+        $position: absolute,
+    );
+    @include components.radiobutton-theme($tmp);
 }
 .TKS_CustomersOrders .radioButton2 {
-    width: auto;
-    left: 82px;
-    top: 37px;
-    height: auto;
-    position: absolute;
+    $tmp: variables.radiobutton-theme-values(
+        $width: auto,
+        $left: 82px,
+        $top: 37px,
+        $height: auto,
+        $position: absolute,
+    );
+    @include components.radiobutton-theme($tmp);
 }
 .TKS_CustomersOrders .radioButton3 {
-    width: auto;
-    left: 186px;
-    top: 37px;
-    height: auto;
-    position: absolute;
+    $tmp: variables.radiobutton-theme-values(
+        $width: auto,
+        $left: 186px,
+        $top: 37px,
+        $height: auto,
+        $position: absolute,
+    );
+    @include components.radiobutton-theme($tmp);
 }
 .TKS_CustomersOrders .radioButton4 {
-    width: auto;
-    left: 269px;
-    top: 37px;
-    height: auto;
-    position: absolute;
+    $tmp: variables.radiobutton-theme-values(
+        $width: auto,
+        $left: 269px,
+        $top: 37px,
+        $height: auto,
+        $position: absolute,
+    );
+    @include components.radiobutton-theme($tmp);
 }
 .TKS_CustomersOrders .textBox3 {
-    left: 544px;
-    top: 377px;
-    width: 100px;
-    height: 22px;
-    position: absolute;
+    $tmp: variables.textbox-theme-values(
+        $left: 544px,
+        $top: 377px,
+        $width: 100px,
+        $height: 22px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
 }
 .TKS_CustomersOrders .label10 {
-    width: auto;
-    left: 461px;
-    top: 382px;
-    height: auto;
-    position: absolute;
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $left: 461px,
+        $top: 382px,
+        $height: auto,
+        $position: absolute,
+    );
     white-space: nowrap;
     overflow: hidden;
+    @include components.label-theme($tmp);
 }

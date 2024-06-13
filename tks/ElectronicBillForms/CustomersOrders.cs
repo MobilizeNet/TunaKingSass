@@ -48,12 +48,12 @@ namespace TKS.ElectronicBillForms
       ;
 
       [Intercepted]
-      private Dictionary<int, string> economicActivity { get; set; } = new Dictionary<int, string>
+      private List<string> economicActivity { get; set; } = new List<string>
       {
-         { 0, "Producing" },
-         { 1, "Suplying" },
-         { 2, "Buying" },
-         { 3, "Selling" }
+         "Producing",
+         "Suplying",
+         "Buying",
+         "Selling"
       }
       ;
 
@@ -69,13 +69,21 @@ namespace TKS.ElectronicBillForms
       ;
 
       [Intercepted]
-      private int[] consec { get; set; } = new int[5] { 23445, 6656, 7678, 345, 67 };
+      private List<int> consec { get; set; } = new List<int>
+      {
+         23445,
+         6656,
+         7678,
+         345,
+         67
+      }
+      ;
 
       [Intercepted]
       private ArrayList billList { get; set; } = new ArrayList();
 
       [Intercepted]
-      private List<Order> orderList { get; set; } = new List<Order>
+      private List<string> orderList { get; set; } = new List<string>
       {
       };
 
@@ -104,6 +112,8 @@ namespace TKS.ElectronicBillForms
          UiCommons.LoadComboSource("customer_id", "fullName", this.comboBox3, this.Customers);
          this.comboBox1.DataSource = officesArray;
          this.comboBox2.DataSource = srlNumbr;
+         this.textBox1.Text = this.economicActivity[0].ToString();
+         this.textBox4.Text = this.srlNumbr[0].ToString();
       }
 
       private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -113,6 +123,7 @@ namespace TKS.ElectronicBillForms
          string obj = this.officesArray[indx];
          this.textBox1.Text = this.economicActivity[indx];
          this.textBox1.Visible = true;
+         var j = billList.Count;
          billList.Add(obj);
       }
 
@@ -152,10 +163,11 @@ namespace TKS.ElectronicBillForms
          foreach ( DataRow item in this.Orders.Rows )
          {
             var id = item.ItemArray[0];
-            value += "  Order id: " + id;
+            var orderId = "  Order id: " + id;
+            value += orderId;
             var order = new Order();
             order.Id = Convert.ToInt32(id);
-            this.orderList.Add(order);
+            this.orderList.Add(id.ToString());
          }
          textBox2.Text = value;
       }
@@ -164,12 +176,12 @@ namespace TKS.ElectronicBillForms
       {
          if ( this.orderList.Count > 0 )
          {
-            this.orderList.RemoveAt(this.orderList.Count() - 1);
+            this.orderList.RemoveAt(this.orderList.Count - 1);
             string value = "";
-            var count = this.orderList.Count();
+            var count = this.orderList.Count;
             for ( int i = 0; i < count; i++ )
             {
-               var id = this.orderList[i].Id;
+               var id = this.orderList[i];
                value += "  Order id: " + id;
             }
             textBox2.Text = value;
@@ -181,7 +193,7 @@ namespace TKS.ElectronicBillForms
          double price = 0;
          foreach ( var item in this.orderList )
          {
-            this.Orders = DataHandler.GetDataTableSourceCondition(@" list_price as 'price'", "sales.order_items", "order_id = " + String.Format("'{0}'", item.Id.ToString()));
+            this.Orders = DataHandler.GetDataTableSourceCondition(@" list_price as 'price'", "sales.order_items", "order_id = " + String.Format("'{0}'", item.ToString()));
             var prflag = this.Orders.Rows;
             foreach ( DataRow orderItem in prflag )
             {

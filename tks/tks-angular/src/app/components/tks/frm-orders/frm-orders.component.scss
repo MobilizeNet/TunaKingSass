@@ -6,205 +6,283 @@
     top: -1px;
 }
 .TKS_frmOrders .frmOrders {
-    width: 816px;
-    height: 652px;
-    overflow: hidden;
+    $tmp: variables.window-theme-values(
+        $width: 816px,
+        $height: 652px,
+        $overflow: hidden,
+    );
+    @include components.window-theme($tmp);
 }
 .TKS_frmOrders .pnlOrder {
-    left: 12px;
-    top: 12px;
-    width: 781px;
-    height: 546px;
-    position: absolute;
+    $tmp: variables.panel-theme-values(
+        $left: 12px,
+        $top: 12px,
+        $width: 781px,
+        $height: 546px,
+        $position: absolute,
+    );
+    @include components.panel-theme($tmp);
 }
 .TKS_frmOrders .gbxUsers {
-    left: 431px;
-    top: 306px;
-    width: 323px;
-    height: 197px;
-    position: absolute;
+    $tmp: variables.groupbox-theme-values(
+        $left: 431px,
+        $top: 306px,
+        $width: 323px,
+        $height: 197px,
+        $position: absolute,
+    );
+    @include components.groupbox-theme($tmp);
 }
 .TKS_frmOrders .lbxCustomers {
-    left: 5px;
-    top: 19px;
-    width: 312px;
-    height: 173px;
-    position: absolute;
+    $tmp: variables.listbox-theme-values(
+        $left: 5px,
+        $top: 19px,
+        $width: 312px,
+        $height: 173px,
+        $position: absolute,
+    );
+    @include components.listbox-theme($tmp);
 }
 .TKS_frmOrders .lb {
-    width: auto;
-    left: 568px;
-    top: 74px;
-    height: auto;
-    position: absolute;
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $left: 568px,
+        $top: 74px,
+        $height: auto,
+        $position: absolute,
+    );
     white-space: nowrap;
     overflow: hidden;
+    @include components.label-theme($tmp);
 }
 .TKS_frmOrders .grbProduct {
-    left: 42px;
-    top: 301px;
-    width: 323px;
-    height: 202px;
-    position: absolute;
+    $tmp: variables.groupbox-theme-values(
+        $left: 42px,
+        $top: 301px,
+        $width: 323px,
+        $height: 202px,
+        $position: absolute,
+    );
+    @include components.groupbox-theme($tmp);
 }
 .TKS_frmOrders .lbxProducts {
-    left: 6px;
-    top: 22px;
-    width: 311px;
-    height: 173px;
-    position: absolute;
+    $tmp: variables.listbox-theme-values(
+        $left: 6px,
+        $top: 22px,
+        $width: 311px,
+        $height: 173px,
+        $position: absolute,
+    );
+    @include components.listbox-theme($tmp);
 }
 .TKS_frmOrders .dtpArrival {
-    left: 636px;
-    top: 69px;
-    width: 87px;
-    height: 20px;
-    position: absolute;
+    $tmp: variables.datetimepicker-theme-values(
+        $left: 636px,
+        $top: 69px,
+        $width: 87px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.datetimepicker-theme($tmp);
 }
 .TKS_frmOrders .dtpShipping {
-    left: 365px;
-    top: 68px;
-    width: 87px;
-    height: 20px;
-    position: absolute;
+    $tmp: variables.datetimepicker-theme-values(
+        $left: 365px,
+        $top: 68px,
+        $width: 87px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.datetimepicker-theme($tmp);
 }
 .TKS_frmOrders .lblStaff {
-    width: auto;
-    left: 39px;
-    top: 143px;
-    height: auto;
-    position: absolute;
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $left: 39px,
+        $top: 143px,
+        $height: auto,
+        $position: absolute,
+    );
     white-space: nowrap;
     overflow: hidden;
+    @include components.label-theme($tmp);
 }
 .TKS_frmOrders .lbsShipDate {
-    width: auto;
-    left: 285px;
-    top: 74px;
-    height: auto;
-    position: absolute;
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $left: 285px,
+        $top: 74px,
+        $height: auto,
+        $position: absolute,
+    );
     white-space: nowrap;
     overflow: hidden;
+    @include components.label-theme($tmp);
 }
 .TKS_frmOrders .cboStaff {
-    left: 131px;
-    top: 140px;
-    width: 183px;
-    height: 21px;
-    position: absolute;
+    $tmp: variables.combobox-theme-values(
+        $left: 131px,
+        $top: 140px,
+        $width: 183px,
+        $height: 21px,
+        $position: absolute,
+    );
+    @include components.combobox-theme($tmp);
 }
 .TKS_frmOrders .txtOrder {
-    left: 95px;
-    top: 11px;
-    width: 46px;
-    height: 20px;
-    position: absolute;
+    $tmp: variables.textbox-theme-values(
+        $left: 95px,
+        $top: 11px,
+        $width: 46px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
 }
 .TKS_frmOrders .lblStore {
-    width: auto;
-    left: 433px;
-    top: 143px;
-    height: auto;
-    position: absolute;
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $left: 433px,
+        $top: 143px,
+        $height: auto,
+        $position: absolute,
+    );
     white-space: nowrap;
     overflow: hidden;
+    @include components.label-theme($tmp);
 }
 .TKS_frmOrders .dtpOrder {
-    left: 104px;
-    top: 69px;
-    width: 87px;
-    height: 20px;
-    position: absolute;
+    $tmp: variables.datetimepicker-theme-values(
+        $left: 104px,
+        $top: 69px,
+        $width: 87px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.datetimepicker-theme($tmp);
 }
 .TKS_frmOrders .cboStore {
-    left: 489px;
-    top: 140px;
-    width: 183px;
-    height: 21px;
-    position: absolute;
+    $tmp: variables.combobox-theme-values(
+        $left: 489px,
+        $top: 140px,
+        $width: 183px,
+        $height: 21px,
+        $position: absolute,
+    );
+    @include components.combobox-theme($tmp);
 }
 .TKS_frmOrders .lblOrderDate {
-    width: auto;
-    left: 39px;
-    top: 74px;
-    height: auto;
-    position: absolute;
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $left: 39px,
+        $top: 74px,
+        $height: auto,
+        $position: absolute,
+    );
     white-space: nowrap;
     overflow: hidden;
+    @include components.label-theme($tmp);
 }
 .TKS_frmOrders .lblOrderN {
-    width: auto;
-    left: 16px;
-    top: 14px;
-    height: auto;
-    position: absolute;
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $left: 16px,
+        $top: 14px,
+        $height: auto,
+        $position: absolute,
+    );
     white-space: nowrap;
     overflow: hidden;
+    @include components.label-theme($tmp);
 }
 .TKS_frmOrders .lblQuantity {
-    width: auto;
-    left: 33px;
-    top: 229px;
-    height: auto;
-    position: absolute;
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $left: 33px,
+        $top: 229px,
+        $height: auto,
+        $position: absolute,
+    );
     white-space: nowrap;
     overflow: hidden;
+    @include components.label-theme($tmp);
 }
 .TKS_frmOrders .numQuantity {
-    left: 122px;
-    top: 227px;
-    width: 73px;
-    height: 20px;
-    position: absolute;
+    $tmp: variables.numericupdown-theme-values(
+        $left: 122px,
+        $top: 227px,
+        $width: 73px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.numericupdown-theme($tmp);
 }
 .TKS_frmOrders .lblPrice {
-    width: auto;
-    left: 276px;
-    top: 229px;
-    height: auto;
-    position: absolute;
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $left: 276px,
+        $top: 229px,
+        $height: auto,
+        $position: absolute,
+    );
     white-space: nowrap;
     overflow: hidden;
+    @include components.label-theme($tmp);
 }
 .TKS_frmOrders .lblDiscount {
-    width: auto;
-    left: 559px;
-    top: 229px;
-    height: auto;
-    position: absolute;
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $left: 559px,
+        $top: 229px,
+        $height: auto,
+        $position: absolute,
+    );
     white-space: nowrap;
     overflow: hidden;
+    @include components.label-theme($tmp);
 }
 .TKS_frmOrders .numDiscount {
-    left: 638px;
-    top: 227px;
-    width: 73px;
-    height: 20px;
-    position: absolute;
+    $tmp: variables.numericupdown-theme-values(
+        $left: 638px,
+        $top: 227px,
+        $width: 73px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.numericupdown-theme($tmp);
 }
 .TKS_frmOrders .numPrice {
-    left: 351px;
-    top: 227px;
-    width: 73px;
-    height: 20px;
-    position: absolute;
+    $tmp: variables.numericupdown-theme-values(
+        $left: 351px,
+        $top: 227px,
+        $width: 73px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.numericupdown-theme($tmp);
 }
 .TKS_frmOrders .btnPlaceOrder {
-    left: 347px;
-    top: 592px;
-    width: 103px;
-    height: 23px;
-    position: absolute;
+    $tmp: variables.button-theme-values(
+        $left: 347px,
+        $top: 592px,
+        $width: 103px,
+        $height: 23px,
+        $position: absolute,
+    );
     padding: 0px 0px 0px 0px;
     display: table-cell;
     vertical-align: middle;
     display: table-cell;
+    @include components.button-theme($tmp);
 }
-.TKS_frmOrders wm-usercontrol .ucOkCancel1 {
-    left: 502px;
-    top: 576px;
-    background-color: White;
-    width: 291px;
-    height: 52px;
-    position: absolute;
+.TKS_frmOrders .ucOkCancel1 {
+    $tmp: variables.usercontrol-theme-values(
+        $left: 502px,
+        $top: 576px,
+        $background: White,
+        $width: 291px,
+        $height: 52px,
+        $position: absolute,
+    );
+    @include components.usercontrol-theme($tmp);
 }

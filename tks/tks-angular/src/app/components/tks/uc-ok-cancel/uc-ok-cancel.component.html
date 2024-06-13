@@ -1,6 +1,8 @@
-<wm-usercontrol [model]="model"><div *ngIf="model && model.Visible" class="TKS_ucOkCancel">
-    <div class="ucOkCancel" [ngStyle]="setMyStyle()" [ngClass]="class" name="ucOkCancel">
-        <wm-button #btnOk id="btnOk" [model]="model.btnOk" class="btnOk" tabindex="1"></wm-button>
-        <wm-button #btnCancel id="btnCancel" [model]="model.btnCancel" class="btnCancel" tabindex="2"></wm-button>
+<wm-usercontrol id="ucOkCancel" [model]="model" class="TKS_ucOkCancel" >
+    <div class="ucOkCancel" [ngClass]="class">
+        <div *ngIf="model && model.Visible" class="usercontrol-content">
+            <wm-button #btnOk id="btnOk" [model]="model.btnOk" class="btnOk" tabindex="1"></wm-button>
+            <wm-button #btnCancel id="btnCancel" [model]="model.btnCancel" class="btnCancel" tabindex="2"></wm-button>
+        </div>
     </div>
-</div></wm-usercontrol>
+</wm-usercontrol>

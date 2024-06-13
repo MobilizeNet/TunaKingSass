@@ -1,0 +1,56 @@
+.TKS_FrmBillManagment {
+    left: -1px;
+    top: -1px;
+}
+.TKS_FrmBillManagment .FrmBillManagment {
+    width: 1006px;
+    height: 621px;
+    overflow: hidden;
+}
+.TKS_FrmBillManagment .panel1 {
+    left: 0px;
+    top: 556px;
+    width: 1006px;
+    height: 65px;
+    position: absolute;
+}
+.TKS_FrmBillManagment .btnBack {
+    left: 275px;
+    top: 12px;
+    width: 91px;
+    height: 41px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TKS_FrmBillManagment .btnNext {
+    left: 406px;
+    top: 12px;
+    width: 108px;
+    height: 41px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TKS_FrmBillManagment .btnCancel {
+    left: 555px;
+    top: 12px;
+    width: 182px;
+    height: 41px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.TKS_FrmBillManagment .pnlContent {
+    left: 0px;
+    top: 0px;
+    width: 1006px;
+    height: 556px;
+    position: absolute;
+}

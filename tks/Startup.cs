@@ -44,7 +44,7 @@ namespace WebSite
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton(p => config);
-            services.AddWebMap();
+            services.AddWebMap(false);
             services.RegisterModelMappers();
             services.RegisterWrappers();
             AddDesktopCompatibilityPlatform(services, Startup.Start);

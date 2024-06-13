@@ -6,37 +6,49 @@
     top: -1px;
 }
 .TKS_frmListData .frmListData {
-    background-color: White;
-    width: 230px;
-    height: 317px;
-    overflow: hidden;
+    $tmp: variables.window-theme-values(
+        $background: White,
+        $width: 230px,
+        $height: 317px,
+        $overflow: hidden,
+    );
+    @include components.window-theme($tmp);
 }
 .TKS_frmListData .lbxData {
-    left: 12px;
-    top: 12px;
-    width: 206px;
-    height: 251px;
-    position: absolute;
+    $tmp: variables.listbox-theme-values(
+        $left: 12px,
+        $top: 12px,
+        $width: 206px,
+        $height: 251px,
+        $position: absolute,
+    );
+    @include components.listbox-theme($tmp);
 }
 .TKS_frmListData .btnSelect {
-    left: 22px;
-    top: 282px;
-    width: 75px;
-    height: 23px;
-    position: absolute;
+    $tmp: variables.button-theme-values(
+        $left: 22px,
+        $top: 282px,
+        $width: 75px,
+        $height: 23px,
+        $position: absolute,
+    );
     padding: 0px 0px 0px 0px;
     display: table-cell;
     vertical-align: middle;
     display: table-cell;
+    @include components.button-theme($tmp);
 }
 .TKS_frmListData .btnClose {
-    left: 129px;
-    top: 282px;
-    width: 75px;
-    height: 23px;
-    position: absolute;
+    $tmp: variables.button-theme-values(
+        $left: 129px,
+        $top: 282px,
+        $width: 75px,
+        $height: 23px,
+        $position: absolute,
+    );
     padding: 0px 0px 0px 0px;
     display: table-cell;
     vertical-align: middle;
     display: table-cell;
+    @include components.button-theme($tmp);
 }
